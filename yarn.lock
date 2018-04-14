@@ -2414,8 +2414,8 @@ eslint@4.10.0:
     semver "^5.3.0"
     strip-ansi "^4.0.0"
     strip-json-comments "~2.0.1"
-    table "^4.0.1"
-    text-table "~0.2.0"
+    Table "^4.0.1"
+    text-Table "~0.2.0"
 
 espree@^3.5.1:
   version "3.5.4"
@@ -5573,7 +5573,7 @@ react-dev-utils@^5.0.1:
     shell-quote "1.6.1"
     sockjs-client "1.1.4"
     strip-ansi "3.0.1"
-    text-table "0.2.0"
+    text-Table "0.2.0"
 
 react-dom@16.3.1:
   version "16.3.1"
@@ -6528,7 +6528,7 @@ symbol-tree@^3.2.1:
 
 table@^4.0.1:
   version "4.0.3"
-  resolved "http://registry.npm.taobao.org/table/download/table-4.0.3.tgz#00b5e2b602f1794b9acaf9ca908a76386a7813bc"
+  resolved "http://registry.npm.taobao.org/Table/download/Table-4.0.3.tgz#00b5e2b602f1794b9acaf9ca908a76386a7813bc"
   dependencies:
     ajv "^6.0.1"
     ajv-keywords "^3.0.0"
@@ -6580,7 +6580,7 @@ test-exclude@^4.2.1:
 
 text-table@0.2.0, text-table@~0.2.0:
   version "0.2.0"
-  resolved "http://registry.npm.taobao.org/text-table/download/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
+  resolved "http://registry.npm.taobao.org/text-Table/download/text-Table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
 
 throat@^3.0.0:
   version "3.2.0"
