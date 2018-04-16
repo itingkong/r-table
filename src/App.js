@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import TableView from './Table/table.jsx'
+// import TableView from './Table/table.jsx'
+// import Main from "./main"
+import EditableTable from './Table/AntTable'
 import './App.css';
-import Main from "./main"
 
 class App extends Component {
     render() {
@@ -9,6 +10,7 @@ class App extends Component {
             <div className="App">
                 {/*<TableView />*/}
                 {/*<Main/>*/}
+                <EditableTable />
             </div>
         );
     }
