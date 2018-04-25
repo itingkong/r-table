@@ -19,7 +19,7 @@ class EditableCell extends React.Component {
             this.props.onChange(this.state.value);
         }
     }
-    
+
     edit = () => {
         this.setState({editable: true});
     }
@@ -118,10 +118,12 @@ class EditableTable extends React.Component {
             }
         };
     }
+    
     onDelete = (key) => {
         const dataSource = [...this.state.dataSource];
         this.setState({dataSource: dataSource.filter(item => item.key !== key)});
     }
+
     handleAdd = () => {
         const {count, dataSource} = this.state;
         const newData = {
@@ -139,9 +141,11 @@ class EditableTable extends React.Component {
     showModal = () => {
         this.setState({ visible: true });
     };
+
     handleCancel = () => {
         this.setState({ visible: false });
     };
+
     handleCreate = () => {
         const form = this.formRef.props.form;
         form.validateFields((err, values) => {
@@ -173,6 +177,7 @@ class EditableTable extends React.Component {
     saveFormRef = (formRef) => {
         this.formRef = formRef;
     };
+    
     render() {
         const {dataSource} = this.state;
         const columns = this.columns;
