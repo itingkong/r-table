@@ -1,21 +1,25 @@
 import React from 'react'
-import {Table, Input, Icon, Button, Popconfirm} from 'antd';
+import {Table, Input, Icon, Button, Popconfirm} from 'antd'
 import CollectionCreateForm from './CollectionCreateForm'
+
 class EditableCell extends React.Component {
     state = {
         value: this.props.value,
         editable: false,
     }
+
     handleChange = (e) => {
         const value = e.target.value;
         this.setState({value});
     }
+
     check = () => {
         this.setState({editable: false});
         if (this.props.onChange) {
             this.props.onChange(this.state.value);
         }
     }
+    
     edit = () => {
         this.setState({editable: true});
     }
