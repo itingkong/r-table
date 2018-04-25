@@ -162,7 +162,7 @@ class EditableTable extends React.Component {
                 age: values.age,
                 address: values.address,
             };
-            console.log('Received values of form: ', values);
+            // console.log('Received values of form: ', values);
             form.resetFields();
 
             // 直接更改状态和数据，不用在输入的时候一个一个处理数据
