@@ -196,7 +196,7 @@ class EditableTable extends React.Component {
                 <Table bordered dataSource={dataSource} columns={columns}/>
             </div>
         );
-    }
+    };
 }
 
 export default EditableTable
